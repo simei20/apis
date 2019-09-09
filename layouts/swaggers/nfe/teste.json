@@ -120,25 +120,32 @@
               "type": "object",
               "properties": {
                 "nProt": {
-                  "type": "integer"
+                  "type": "integer",
+                  "example": 55455534534
                 },
                 "digVal": {
-                  "type": "string"
+                  "type": "string",
+                  "example": "jfdgh76tr542786rteuhyfbwef8="
                 },
                 "dhRecbto": {
-                  "type": "string"
+                  "type": "string",
+                  "example": "2019-07-22T09:34:06-03:00"
                 },
                 "Id": {
-                  "type": "string"
+                  "type": "string",
+                  "example": "Id445345345"
                 },
                 "chNFe": {
-                  "type": "string"
+                  "type": "string",
+                  "example": "87878774456468954646464654654546545446579312"
                 },
                 "xMotivo": {
-                  "type": "string"
+                  "type": "string",
+                  "example": "Autorizado o uso da NF-e"
                 },
                 "cStat": {
-                  "type": "number"
+                  "type": "number",
+                  "example": 100
                 }
               }
             }
@@ -154,7 +161,8 @@
                   "type": "object",
                   "properties": {
                     "infCpl": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "Lorem ipsum dolor..."
                     },
                     "obsCont": {
                       "type": "array",
@@ -162,10 +170,12 @@
                         "type": "object",
                         "properties": {
                           "xCampo": {
-                            "type": "string"
+                            "type": "string",
+                            "example": "Qualquer coisa 1"
                           },
                           "xTexto": {
-                            "type": "string"
+                            "type": "string",
+                            "example": "Qualquer coisa 2"
                           }
                         }
                       }
@@ -178,7 +188,8 @@
                     "type": "object",
                     "properties": {
                       "nItem": {
-                        "type": "integer"
+                        "type": "integer",
+                        "example": 1
                       },
                       "prod": {
                         "type": "array",
@@ -186,49 +197,64 @@
                           "type": "object",
                           "properties": {
                             "cEAN": {
-                              "type": "string"
+                              "type": "string",
+                              "example": "SEM GTIN"
                             },
                             "cProd": {
-                              "type": "string"
+                              "type": "string",
+                              "example": "JC59-00035A-SI"
                             },
                             "qCom": {
-                              "type": "number"
+                              "type": "number",
+                              "example": 1
                             },
                             "cEANTrib": {
-                              "type": "string"
+                              "type": "string",
+                              "example": "SEM GTIN"
                             },
                             "vUnTrib": {
-                              "type": "number"
+                              "type": "number",
+                              "example": 265.79
                             },
                             "qTrib": {
-                              "type": "number"
+                              "type": "number",
+                              "example": 1
                             },
                             "vProd": {
-                              "type": "number"
+                              "type": "number",
+                              "example": 265.79
                             },
                             "xProd": {
-                              "type": "string"
+                              "type": "string",
+                              "example": "UNIDADE DE DISCO RIGIDO 320GB"
                             },
                             "vUnCom": {
-                              "type": "number"
+                              "type": "number",
+                              "example": 265.79
                             },
                             "indTot": {
-                              "type": "integer"
+                              "type": "integer",
+                              "example": 1
                             },
                             "uTrib": {
-                              "type": "string"
+                              "type": "string",
+                              "example": "UN"
                             },
                             "NCM": {
-                              "type": "integer"
+                              "type": "integer",
+                              "example": 84717012
                             },
                             "uCom": {
-                              "type": "string"
+                              "type": "string",
+                              "example": "UN"
                             },
                             "CFOP": {
-                              "type": "integer"
+                              "type": "integer",
+                              "example": 5949
                             },
                             "CEST": {
-                              "type": "integer"
+                              "type": "integer",
+                              "example": 2103300
                             },
                             "rastro": {
                               "type": "array",
@@ -236,19 +262,24 @@
                                 "type": "object",
                                 "properties": {
                                   "nLote": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "example": "Lote 1"
                                   },
                                   "qLote": {
-                                    "type": "number"
+                                    "type": "number",
+                                    "example": 18
                                   },
                                   "dFab": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "example": "2019-07-22"
                                   },
                                   "dVal": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "example": "2020-06-22"
                                   },
                                   "cAgreg": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "example": "Agregador 1"
                                   }
                                 }
                               }
@@ -263,10 +294,12 @@
                             "type": "object",
                             "properties": {
                               "orig": {
-                                "type": "integer"
+                                "type": "integer",
+                                "example": 1
                               },
                               "CST": {
-                                "type": "integer"
+                                "type": "integer",
+                                "example": 41
                               }
                             }
                           },
@@ -277,12 +310,14 @@
                                 "type": "object",
                                 "properties": {
                                   "CST": {
-                                    "type": "integer"
+                                    "type": "integer",
+                                    "example": 53
                                   }
                                 }
                               },
                               "cEnq": {
-                                "type": "integer"
+                                "type": "integer",
+                                "example": 999
                               }
                             }
                           },
@@ -293,7 +328,8 @@
                                 "type": "object",
                                 "properties": {
                                   "CST": {
-                                    "type": "integer"
+                                    "type": "integer",
+                                    "example": "07"
                                   }
                                 }
                               }
@@ -306,7 +342,8 @@
                                 "type": "object",
                                 "properties": {
                                   "CST": {
-                                    "type": "integer"
+                                    "type": "integer",
+                                    "example": "07"
                                   }
                                 }
                               }
@@ -324,61 +361,80 @@
                       "type": "object",
                       "properties": {
                         "vCONFINS": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vBCST": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vICMSDeson": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vProd": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 265.79
                         },
                         "vSeq": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vFCP": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vFCPST": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vNF": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vPIS": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vIPIDevol": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vBC": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vST": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vICMS": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vII": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vFCPSTRet": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vDESC": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vOutro": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vIPI": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         },
                         "vFrete": {
-                          "type": "number"
+                          "type": "number",
+                          "example": 0
                         }
                       }
                     }
@@ -393,10 +449,12 @@
                         "type": "object",
                         "properties": {
                           "vPag": {
-                            "type": "number"
+                            "type": "number",
+                            "example": 265.79
                           },
                           "tpag": {
-                            "type": "number"
+                            "type": "number",
+                            "example": 99
                           }
                         }
                       }
@@ -404,70 +462,91 @@
                   }
                 },
                 "Id": {
-                  "type": "string"
+                  "type": "string",
+                  "example": "NFe87878774456468954646464654654546545446579312"
                 },
                 "ide": {
                   "type": "object",
                   "properties": {
                     "tpNF": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 1
                     },
                     "mod": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 55
                     },
                     "indPres": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 0
                     },
                     "tpImp": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 1
                     },
                     "nNF": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 1353368
                     },
                     "cMunFG": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 3534401
                     },
                     "procEmi": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 0
                     },
                     "finNFe": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 1
                     },
                     "dhEmi": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "2019-07-22T09:33:31-03:00"
                     },
                     "tpAmb": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 1
                     },
                     "indFinal": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 1
                     },
                     "dhSaiEnt": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "2019-07-22T09:33:31-03:00"
                     },
                     "idDest": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 1
                     },
                     "tpEmis": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 1
                     },
                     "cDV": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 0
                     },
                     "cUF": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 35
                     },
                     "serie": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 3
                     },
                     "natOp": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "Outra saida merc./prestacao serv. nao espec."
                     },
                     "cNF": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "00012763"
                     },
                     "verProc": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "5.0.1500.2985"
                     }
                   }
                 },
@@ -475,60 +554,77 @@
                   "type": "object",
                   "properties": {
                     "CNAE": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 34324
                     },
                     "xNome": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "ACME SERVICOS LTDA"
                     },
                     "IM": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 96852
                     },
                     "CRT": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 3
                     },
                     "xFant": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "ACME SERVICOS LTDA"
                     },
                     "CNPJ": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "ACME SERVICOS LTDA"
                     },
                     "enderEmit": {
                       "type": "object",
                       "properties": {
                         "fone": {
-                          "type": "integer"
+                          "type": "integer",
+                          "example": 4534534534
                         },
                         "UF": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "SP"
                         },
                         "xPais": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "Brasil"
                         },
                         "cPais": {
-                          "type": "integer"
+                          "type": "integer",
+                          "example": 1058
                         },
                         "xLgr": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "SP"
                         },
                         "xMun": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "Brasil"
                         },
                         "nro": {
-                          "type": "integer"
+                          "type": "integer",
+                          "example": 628
                         },
                         "cMun": {
-                          "type": "integer"
+                          "type": "integer",
+                          "example": 454545
                         },
                         "xBairro": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "Bairro do Chaves"
                         },
                         "CEP": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "06200000"
                         }
                       }
                     },
                     "IE": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 8465465454
                     }
                   }
                 },
@@ -536,57 +632,73 @@
                   "type": "object",
                   "properties": {
                     "xNome": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "ACME SERVICOS LTDA"
                     },
                     "CNPJ": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "4545345345345"
                     },
                     "enderDest": {
                       "type": "object",
                       "properties": {
                         "xCpl": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "GALP 1 E 2"
                         },
                         "fone": {
-                          "type": "integer"
+                          "type": "integer",
+                          "example": 4534534534
                         },
                         "UF": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "SP"
                         },
                         "xPais": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "Brasil"
                         },
                         "cPais": {
-                          "type": "integer"
+                          "type": "integer",
+                          "example": 1058
                         },
                         "xLgr": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "AV Paulista"
                         },
                         "xMun": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "Oscasco"
                         },
                         "nro": {
-                          "type": "integer"
+                          "type": "integer",
+                          "example": 628
                         },
                         "cMun": {
-                          "type": "integer"
+                          "type": "integer",
+                          "example": 454545
                         },
                         "xBairro": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "Bairro do Chaves"
                         },
                         "CEP": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "06200000"
                         }
                       }
                     },
                     "IE": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 8465465454
                     },
                     "indIEDest": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 9
                     },
                     "email": {
-                      "type": "string"
+                      "type": "string",
+                      "example": "acme@acme.com"
                     }
                   }
                 },
@@ -594,20 +706,24 @@
                   "type": "object",
                   "properties": {
                     "modFrete": {
-                      "type": "integer"
+                      "type": "integer",
+                      "example": 0
                     },
                     "vol": {
                       "type": "array",
                       "items": {
                         "properties": {
                           "pesoL": {
-                            "type": "number"
+                            "type": "number",
+                            "example": 0.03
                           },
                           "qVol": {
-                            "type": "integer"
+                            "type": "integer",
+                            "example": 1
                           },
                           "pesoBt": {
-                            "type": "number"
+                            "type": "number",
+                            "example": 0.033
                           }
                         }
                       }
@@ -616,22 +732,28 @@
                       "type": "object",
                       "properties": {
                         "xNone": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "John Doe da Silva"
                         },
                         "UF": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "SP"
                         },
                         "xEnder": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "Rua 1"
                         },
                         "xMun": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "Sao Paulo"
                         },
                         "CNPJ": {
-                          "type": "string"
+                          "type": "string",
+                          "example": "4654654654654"
                         },
                         "IE": {
-                          "type": "integer"
+                          "type": "integer",
+                          "example": 8789789789
                         }
                       }
                     }
